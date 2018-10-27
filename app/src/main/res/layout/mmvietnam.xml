@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="78dp"
+            android:src="@drawable/mm" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/fullframe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MÁY ẢNH FULLFRAME CỦA FUJIFILM ?"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
